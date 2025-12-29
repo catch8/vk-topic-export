@@ -1,0 +1,65 @@
+# -------------------------
+# Gradle / Java
+# -------------------------
+.gradle/
+build/
+out/
+**/build/
+**/out/
+
+# Keep wrapper jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Kotlin
+.kotlin/
+
+# -------------------------
+# Node
+# -------------------------
+node_modules/
+**/node_modules/
+
+# -------------------------
+# Exports / private data (VK)
+# -------------------------
+vk-diary-export/out_vk/
+vk-diary-export/**/vk_state*.json
+vk-diary-export/**/topic*.json
+
+# (optional) if you keep Playwright profile locally
+vk-diary-export/pw-profile/
+
+# -------------------------
+# DOCX exports
+# -------------------------
+*.docx
+
+# -------------------------
+# OS
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# IDE leftovers (optional)
+# -------------------------
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+.vscode/
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
